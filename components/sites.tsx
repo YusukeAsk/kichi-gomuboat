@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
-import { ChefHat, Wrench, Palette, Moon, ArrowUpRight } from "lucide-react"
+import { ChefHat, Gamepad2, Wrench, Palette, Moon, ArrowUpRight } from "lucide-react"
 
 const sites = [
   {
@@ -13,6 +13,14 @@ const sites = [
     domain: "papagohan.kichi.page",
     description: "週末にこしらえた料理を、ひと皿ずつ置いていく台所。",
     ready: true,
+  },
+  {
+    icon: Gamepad2,
+    title: "play",
+    url: "https://play.kichi.page/",
+    domain: "play.kichi.page",
+    description: "ブラウザですぐ遊べる、小さなゲームの遊び場。",
+    ready: false,
   },
   {
     icon: Wrench,
