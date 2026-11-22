@@ -71,10 +71,7 @@ export function Sites() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-center mb-16"
         >
-          <p className="text-sm tracking-[0.2em] text-primary mb-3">SITES</p>
-          <h2 className="font-serif text-3xl md:text-4xl text-foreground">
-            つくっている場所
-          </h2>
+          <h2 className="text-sm tracking-[0.2em] text-primary">SITES</h2>
         </motion.div>
 
         <motion.div
